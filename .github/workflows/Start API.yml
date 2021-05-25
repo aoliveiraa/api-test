@@ -17,7 +17,7 @@ jobs:
         
     - name: Dotnet Restore
       run: |
-        cd ApiReservas/ApiReservas/
+        cd ApiReservas/
         dotnet restore
         
     - name: Build with dotnet
