@@ -18,15 +18,15 @@ jobs:
     - name: Dotnet Restore
       run: |
         cd.. 
-        cd ApiReservas/ApiReservas
+        cd src/ApiReservas/
         dotnet restore
         
     - name: Build with dotnet
       run: |
-        cd ApiReservas/ApiReservas/
+        cd src/ApiReservas/
         dotnet build
         
     - name: dotnet RUN
       run: |
-        cd ApiReservas/ApiReservas/
+        cd src/ApiReservas/
         dotnet run
